@@ -1,0 +1,28 @@
+{
+  "name": "singal-page-todo-app",
+  "version": "1.0.0",
+  "description": "Singal Page Todo App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bhadreshp05/singal-page-todo-app.git"
+  },
+  "author": "Bhadresh Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhadreshp05/singal-page-todo-app/issues"
+  },
+  "homepage": "https://github.com/bhadreshp05/singal-page-todo-app",
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "express": "^4.12.3",
+    "method-override": "^2.3.2",
+    "mongoose": "^4.0.1",
+    "morgan": "^1.5.2",
+    "nodemon": "^1.3.7"
+  }
+}
